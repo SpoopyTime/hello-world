@@ -1,0 +1,48 @@
+
+table,h4,p {
+  text-align: center;
+}
+
+
+table {
+      border:8;
+      color:orange;
+    }
+h4 {
+    color:red;
+  font-size: 30px;
+
+}
+p {
+  border: 2px solid;
+  padding: 20px;
+  width: 300px;
+  resize: vertical;
+  overflow: auto;
+  color:white;
+}
+img {
+  height: 200px;
+  width:200px;
+  transition: height 2s, filter 1s;
+  transition: width 2s, filter 1s;
+}
+img:hover {
+  height:500px;
+  width: 500px;
+}
+.songs {
+  font-family:Anton;
+  font-size: 50px;
+  color: teal;
+}
+.header {
+  font-family: Pacifico;
+  font-size: 100px;
+  color:white;
+}
+a:active{
+ color:green;
+ height:60px;
+ width: 60px;
+}
